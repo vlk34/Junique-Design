@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" class="favicon" href="imgs/png-bigger.png" />
+
+    <title>Junique Design - Oto Design/Döşeme/Servis</title>
+  </head>
+  <body>
+    <section class="main-nav">
+      <div class="navs">
+        <a href="#">
+          <img src="imgs/logo.webp" alt="Junique design logo" class="logo" />
+        </a>
+        <a href="#" class="nav">Brands</a>
+        <a href="#" class="nav">Services</a>
+        <a href="#" class="nav">About us</a>
+        <a href="#" class="nav">Gallery</a>
+        <a href="#" class="nav-cta">Get in Contact</a>
+      </div>
+    </section>
+
+    <section class="hero-section section">
+      <div class="container">
+        <div class="hero-img">
+          <h1 class="heading-primary">
+            <p>Be</p>
+            <br />
+            <p>different,</p>
+            <br />
+            <p>be <span class="Junique">Junique!</span></p>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section container">
+      <h2 class="heading-secondary">Recent Projects</h2>
+      <div class="section projects grid grid-3--cols">
+        <div class="project project-1">
+          <img class="project-img img-1" src="imgs/project-1.webp" />
+          <span class="big-tag">LB Nation</span>
+          <p class="project-text">
+            <p class="tag">Libertywalk Widebody</p>
+            <p class="big-text">Mini R56</p>
+            <p class="small-number">2020</p>
+            <p class="small-text">project date</p>
+          </p>
+        </div>
+        
+        <div class="project project-2">
+          <img class="project-img" src="imgs/project-2.webp" />
+          <span class="big-tag">LB Works</span>
+          <p class="project-text">
+            <p class="tag">Libertywalk Widebody</p>
+            <p class="big-text">Ferrai F360</p>
+            <p class="small-number">2019</p>
+            <p class="small-text">project date</p>
+          </p>
+        </div>
+        <div class="project project-3">
+            <img class="project-img" src="imgs/project-3.webp" />
+            <span class="big-tag">Old & New JP</span>
+          <p class="project-text">
+            <p class="tag">Old & New</p>
+            <p class="big-text">Porsche 911</p>
+            <p class="small-number">2019</p>
+            <p class="small-text">project date</p>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="video container">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6ZPgoUGD2ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <div class="bg-color-container">
+      
+      <section class="container testimonials">
+        <h2 class="heading-secondary test-header">Testimonials</h2>
+        <div class="testimonial-1">
+          <p class="testimonial-text">"Thanks to the Junique team for preparing 
+            the car of my dreams."</p>
+            <p class="testimonial-author">Hakan Kutlu</p>
+          </div>
+          <div class="testimonial-2">
+        <p class="testimonial-text">"Cooperation with such prestige 
+          company such as Junique design not only helps you build 
+          high quality cars, It also lets you be part of the
+          international car scene by its unique works."</p>
+          <p class="testimonial-author">Doğukan Manço</p>
+        </div>
+        <div class="testimonial-3">
+          <p class="testimonial-text">"Istanbul streets are going to be just 
+            like Tokyo with Junique design! There is nothing better than this!"</p>
+            <p class="testimonial-author">Gökhan Gencebay</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="form">
+        <h2 class="heading-secondary form-header">Write to us!</h2>
+
+        <form class="container form form-grid grid-2--cols">
+          <div class="form-box box-1">
+            <label for="full-name">Full Name</label>
+            <input 
+              id="full-name" 
+              type="text" 
+              placeholder="Volkan Erdoğan" 
+              name="full-name" 
+              required />
+          </div>
+
+          <div class="form-box box-2">
+            <label for="email">Email address</label>
+            <input 
+              id="email" 
+              type="email" 
+              placeholder="me@example.com" 
+              name="email" 
+              required 
+              />
+          </div>
+
+          <div class="form-box box-3">
+            <label for="tel">Telephone</label>
+            <input 
+              id="tel" 
+              type="tel" 
+              placeholder="(553 743 21 30)" 
+              name="full-name" 
+              required />
+          </div>
+
+          <div class="form-box box-4">
+            <label for="select-where">Select one:</label>
+            <select id="select-where" name="select-where" required>
+              <option value="">Select one:</option>
+              <option value="price-q">Price offer</option>
+              <option value="general-q">General question</option>
+            </select>
+          </div>
+
+
+          <div class="form-box form-question">
+            <label for="questions">Write your questions here:</label>
+            <input 
+              id="questions" 
+              type="text" 
+              placeholder="What would you like to know?" 
+              name="questions" 
+              required />
+            <button class="btn">Send</button>
+          </div>
+
+
+        </form>
+
+        <footer>
+          <span class="footer-text">Şelale Caddesi Barış sok. Bahçeşehir park çarşı no: 4/1E-4E/D Bahçeşehir / İstanbul / Türkiye.</span>
+          <div class="footer-container">
+            <a href="mailto:info@junique.com.tr" class="footer-text semi-bold">info@junique.com.tr</a>
+            <a href="tel:+90 2012 669 97 13" class="footer-text semi-bold">+90 212 669 97 13</a>
+            
+          <div class="icon-container">
+
+            <a href="#" class=""><ion-icon class="icon ig" name="logo-instagram"></ion-icon></a>
+            <a href="#" class=""><ion-icon class="icon yt" name="logo-youtube"></ion-icon></a>
+          </div>
+          </div>
+        </footer>
+      </section>
+
+  </body>
+</html>
