@@ -2,4 +2,185 @@
   .navs {
     gap: 5.2rem;
   }
+
+  .video {
+    border-radius: 5px;
+    width: 80rem;
+    height: 45rem;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5.2rem;
+    row-gap: 3.6rem;
+  }
+
+  .project-2 {
+    justify-self: start;
+  }
+
+  .project-3 {
+    grid-column: span 2;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 55em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .big-tag {
+    bottom: 43%;
+  }
+
+  .navs {
+    gap: 5.2rem;
+  }
+
+  .video {
+    border-radius: 5px;
+    width: 64rem;
+    height: 36rem;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+
+  .big-tag {
+    bottom: 41%;
+  }
+}
+
+@media (max-width: 44em) {
+  .big-tag {
+    bottom: 41%;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4.8rem;
+  }
+
+  .project {
+    width: inherit;
+  }
+
+  .project-1 {
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+@media (max-width: 42em) {
+  .big-tag {
+    bottom: 38.3%;
+  }
+
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 35em) {
+  .big-tag {
+    bottom: 36.7%;
+  }
+
+  html {
+    font-size: 43%;
+  }
+  .video {
+    border-radius: 5px;
+    width: 52rem;
+    height: 26rem;
+  }
+}
+
+@media (max-width: 28.3em) {
+  .big-tag {
+    bottom: 35.3%;
+  }
+
+  html {
+    font-size: 40%;
+  }
+  .video {
+    border-radius: 4px;
+    width: 56rem;
+    height: 27rem;
+  }
+
+  .primary {
+    text-align: center;
+    margin: 0;
+  }
+
+  .hero-img {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 25em) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #questions {
+    width: 70%;
+    padding: 2.4rem 1.2rem;
+  }
+
+  .video {
+    border-radius: 4px;
+    width: 53rem;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 22.3em) {
+  .video {
+    border-radius: 4px;
+    width: 45rem;
+    height: 22rem;
+  }
+
+  .big-tag {
+    bottom: 42%;
+  }
+
+  .project {
+    max-width: 65%;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 21em) {
+  html {
+    font-size: 37%;
+  }
+  .big-tag {
+    bottom: 41%;
+  }
+}
+
+@media (max-width: 20em) {
+  .big-tag {
+    bottom: 42.5%;
+  }
+}
+
+@media (max-width: 18em) {
+  .big-tag {
+    bottom: 45%;
+  }
 }

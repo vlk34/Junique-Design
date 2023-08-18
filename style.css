@@ -19,6 +19,10 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 
+.text-align {
+  text-align: center;
+}
+
 .section {
   margin-bottom: 9.6rem;
 }
@@ -171,10 +175,10 @@ html {
 
 .heading-secondary {
   color: var(--white);
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 3.2rem;
+  margin-bottom: 5.2rem;
   text-shadow: 0 0 4rem rgb(201, 42, 42, 0.3);
 }
 
@@ -193,7 +197,7 @@ html {
   position: absolute;
   background-color: var(--primary);
   left: 0;
-  bottom: 45%;
+  bottom: 46%;
   padding: 0.4rem 1.2rem;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -228,7 +232,7 @@ html {
 
 .small-number {
   font-weight: 600;
-  font-size: 3.2rem;
+  font-size: 4rem;
   color: #c92a2a;
   text-shadow: 0 0 4rem rgb(201, 42, 42, 0.5);
 }
@@ -377,8 +381,8 @@ html {
   border: none;
   font-size: 2.4rem;
   border-radius: 9px;
-  padding: 1.2rem 8.4rem;
-  margin-top: 3.2rem;
+  padding: 2rem 10rem;
+  margin-top: 6.4rem;
   margin-bottom: 12rem;
   cursor: pointer;
 
@@ -398,7 +402,6 @@ html {
 footer {
   max-width: 100%;
   display: flex;
-  justify-content: center;
   gap: 4.8rem;
   margin-bottom: 1.2rem;
   align-items: center;
@@ -427,8 +430,9 @@ footer {
   font-weight: 300;
   color: #666;
   letter-spacing: 0.1rem;
-  padding: 0 1.2rem;
-  text-align: center;
+  padding: 0 1.6rem;
+  text-align: right;
+  justify-self: center;
 }
 
 .semi-bold {
@@ -445,4 +449,9 @@ footer {
 .yt {
   color: var(--primary);
   padding-right: 2.4rem;
+}
+
+.junique-design {
+  font-weight: 500;
+  color: #ffe3e3;
 }
