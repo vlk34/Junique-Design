@@ -1,3 +1,7 @@
+/******************/
+/*     General    */
+/******************/
+
 * {
   margin: 0;
   padding: 0;
@@ -10,13 +14,13 @@
   --primary: #c92a2a;
 }
 
-body {
-  background-color: var(--black);
-}
-
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--black);
 }
 
 .text-align {
@@ -37,40 +41,46 @@ html {
   justify-items: center;
 }
 
-.grid-3--cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
 .grid-2--cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/******************/
+/*   Navigation   */
+/******************/
+
+.logo {
+  height: 6rem;
+  margin: 2.4rem 0 2.4rem 0;
+  padding: 1.2rem;
+  display: inline-block;
+}
+
 .main-nav {
-  background-color: #0c0c0c;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  position: fixed;
   width: 100%;
+  position: fixed;
+  background-color: #0c0c0c;
   box-shadow: 0 0.6rem 1.2rem rgb(0, 0, 0, 0.2);
   z-index: 9999;
 }
 
-.logo {
-  height: 3.2rem;
-  margin: 2.4rem 0 2.4rem 0;
-}
-
-.nav {
-  position: relative;
+.navs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
 }
 
 .nav::before {
   content: "";
   display: block;
   position: absolute;
-  top: calc(100% + 0.8rem);
   height: 1px;
+  top: calc(100% + 0.8rem);
   left: 0;
   width: 0;
   background-color: var(--white);
@@ -82,42 +92,27 @@ html {
   width: 100%;
 }
 
-.navs {
-  display: flex;
-  gap: 6rem;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav:link,
-.nav:visited {
-  color: var(--white);
+.nav {
+  position: relative;
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.05rem;
-  text-decoration: none;
-}
-
-.nav:hover,
-.nav:active {
   color: var(--white);
-  font-size: 1.8rem;
-  font-weight: 500;
-  letter-spacing: 0.05rem;
   text-decoration: none;
 }
 
 .nav-cta:link,
 .nav-cta:visited {
-  color: var(--white);
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.05rem;
+  color: var(--white);
   text-decoration: none;
-  background-color: var(--primary);
-  box-shadow: 0 0 3.6rem rgb(201, 42, 42, 0.25);
+
   padding: 0.8rem 1.6rem;
   border-radius: 4px;
+  background-color: var(--primary);
+  box-shadow: 0 0 3.6rem rgb(201, 42, 42, 0.25);
 
   transition: all 0.3s ease;
 }
@@ -125,20 +120,26 @@ html {
 .nav-cta:hover,
 .nav-cta:active,
 .nav-cta:focus {
-  background-color: var(--white);
   color: var(--primary);
+  background-color: var(--white);
   box-shadow: 0 0 3.6rem rgb(201, 42, 42, 0.25);
+
   transition: all 0.3s ease;
 }
 
-/* hero section */
+/********************/
+/*   Hero Section   */
+/********************/
 
 .hero-img {
   height: 80vh;
-  background-image: url("imgs/porsche-pic-editedd.png");
-  background-repeat: no-repeat;
+  /* background-image: url("imgs/porsche-pic-editedd.png"); */
+
+  background: top/cover no-repeat url("imgs/porsche-pic-editedd.png");
+
+  /* background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: top; */
 
   display: flex;
   justify-content: flex-start;
@@ -167,8 +168,9 @@ html {
 }
 
 .Junique {
+  font-weight: 900;
   color: var(--primary);
-  text-shadow: 0 0 5rem rgb(201, 42, 42, 0.45);
+  text-shadow: 0 0 5rem rgb(201, 42, 42, 0.5);
 }
 
 /* Project Section */
@@ -430,7 +432,7 @@ footer {
   font-weight: 300;
   color: #666;
   letter-spacing: 0.1rem;
-  padding: 0 1.6rem;
+  padding: 2rem;
   text-align: right;
   justify-self: center;
 }
@@ -448,7 +450,6 @@ footer {
 
 .yt {
   color: var(--primary);
-  padding-right: 2.4rem;
 }
 
 .junique-design {
