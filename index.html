@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
+    <script defer src="script.js"></script>
     
     <script
       type="module"
@@ -26,18 +27,26 @@
     <title>Junique Design - Oto Design/Döşeme/Servis</title>
   </head>
   <body>
-    <section class="main-nav">
-      <div class="navs">
-        <a href="#">
-          <img src="imgs/logo.webp" alt="Junique design logo" class="logo" />
-        </a>
-        <a href="#" class="nav">Brands</a>
-        <a href="#" class="nav">Services</a>
-        <a href="#" class="nav">About us</a>
-        <a href="#" class="nav">Gallery</a>
-        <a href="#" class="nav-cta">Get in Contact</a>
-      </div>
-    </section>
+    <header class="header">
+      <a href="#">
+        <img src="imgs/logo.webp" alt="Junique design logo" class="logo" /> 
+      </a>
+
+      <nav class="main-nav">
+        <ul class="nav-container">
+          <li><a href="#" class="nav">Brands</a></li>    
+          <li><a href="#" class="nav">Services</a></li>
+          <li><a href="#" class="nav">About us</a></li>
+          <li><a href="#" class="nav">Gallery</a></li>
+          <li><a href="#" class="nav-cta">Get in Contact</a></li>
+        </ul>
+      </nav> 
+          
+      <button class="btn-mobile-nav">
+       <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>     
+    </header>
 
     <section class="hero-section section">
       <div class="container">
@@ -149,7 +158,7 @@
             <input 
               id="tel" 
               type="tel" 
-              placeholder="(212 669 97 13)" 
+              placeholder="(553 743 21 30)" 
               name="full-name" 
               required />
           </div>
