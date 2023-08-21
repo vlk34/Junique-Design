@@ -119,6 +119,7 @@ a {
 
 .nav-cta:link,
 .nav-cta:visited {
+  z-index: 99999;
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.05rem;
@@ -175,7 +176,7 @@ a {
   height: 80vh;
   /* background-image: url("imgs/porsche-pic-editedd.png"); */
 
-  background: top/cover no-repeat url("imgs/porsche-pic-editedd.png");
+  background: top/cover no-repeat url("../imgs/porsche-pic-editedd.png");
 
   /* background-repeat: no-repeat;
   background-size: cover;
