@@ -1,0 +1,124 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us h1 {
+  padding-top: 19.2rem;
+  text-align: center;
+  margin: 0;
+
+  font-weight: 900;
+  color: var(--primary);
+  text-shadow: 0 0 5rem rgb(201, 42, 42, 0.2);
+
+  margin-bottom: 2.4rem;
+}
+
+.contact-text {
+  text-align: center;
+  color: #e4e4e4;
+  font-size: 3.2rem;
+  margin-bottom: 4.6rem;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 3.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.contact {
+  font-size: 1.8rem;
+  background-color: #222;
+  border-radius: 9px;
+  padding: 1.4rem;
+  color: #e4e4e4;
+}
+
+.contact h2 {
+  /* background-color: var(--white);
+  display: inline-block;
+  border-radius: 6px; */
+  /* padding: 0.6rem; */
+  font-size: 2rem;
+  color: #666;
+}
+
+.contact-icon {
+  padding: 0.6rem 0;
+  font-size: 3.2rem;
+  color: #e4e4e4;
+}
+
+.contact-end-text {
+  font-size: 3rem;
+  color: #e4e4e4;
+  padding: 3.6rem;
+  text-align: center;
+  /* line-height: 1.; */
+  margin: 0;
+}
+
+.inform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-icon {
+  font-size: 5.2rem;
+  padding: 1.2rem;
+  color: #888;
+  opacity: 15%;
+  margin-bottom: 4.8rem;
+}
+
+/* .contact-form {
+  padding: 6rem;
+} */
+
+.form input,
+.form select {
+  width: 75%;
+  padding: 0.6rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2.4rem;
+}
+
+.btn-form {
+  background-color: var(--primary);
+  color: var(--white);
+  box-shadow: 0 0 4rem rgb(201, 42, 42, 0.25);
+  border: none;
+  font-size: 2.4rem;
+  border-radius: 6px;
+  padding: 1.2rem 3.6rem;
+  cursor: pointer;
+  /* margin-top: 2.4rem; */
+
+  margin-top: 3.2rem;
+  margin-bottom: 19.2rem;
+
+  transition: all 0.2s;
+}
+
+.btn-form:hover,
+.btn-form:active,
+.btn-form:focus {
+  background-color: var(--white);
+  color: var(--primary);
+  box-shadow: 0 0 8rem rgb(201, 42, 42, 0.4);
+}
