@@ -12,27 +12,21 @@ document.querySelectorAll(".nav, .nav-cta").forEach((n) =>
   })
 );
 
-///////////////////////////////////////////////////////////
-// Smooth scrolling animation
-
-const allLinks = document.querySelectorAll("a:link");
-
-allLinks.forEach(function (link) {
+// Smooth scrolling animation for internal links
+document.querySelectorAll('a[href^="#"]').forEach(function (link) {
   link.addEventListener("click", function (e) {
     e.preventDefault();
     const href = link.getAttribute("href");
 
     // Scroll back to top
-    if (href === "#")
+    if (href === "#") {
       window.scrollTo({
         top: 0,
         behavior: "smooth",
       });
-
-    // Scroll to other links
-    if (href !== "#" && href.startsWith("#")) {
-      const sectionEl = document.querySelector(href);
-      sectionEl.scrollIntoView({ behavior: "smooth" });
+    } else {
+      // Navigate to external links
+      window.location.href = href;
     }
   });
 });
