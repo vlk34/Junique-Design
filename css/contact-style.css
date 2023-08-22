@@ -6,31 +6,33 @@
 }
 
 .contact-us h1 {
-  padding-top: 19.2rem;
+  padding-top: 15.2rem;
   text-align: center;
   margin: 0;
+  line-height: 0.8;
 
   font-weight: 900;
   color: var(--primary);
   text-shadow: 0 0 5rem rgb(201, 42, 42, 0.2);
 
   margin-bottom: 2.4rem;
+  padding: 15.2rem 2.4rem 0rem 2.4rem;
 }
 
 .contact-text {
   text-align: center;
   color: #e4e4e4;
   font-size: 3.2rem;
-  margin-bottom: 4.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .contact-box {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 
   padding: 3.6rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 3.2rem;
 }
 
 .contact {
@@ -59,7 +61,7 @@
 .contact-end-text {
   font-size: 3rem;
   color: #e4e4e4;
-  padding: 3.6rem;
+  padding: 2.4rem;
   text-align: center;
   /* line-height: 1.; */
   margin: 0;
@@ -73,11 +75,11 @@
 }
 
 .big-icon {
-  font-size: 5.2rem;
+  font-size: 4.8rem;
   padding: 1.2rem;
   color: #888;
   opacity: 15%;
-  margin-bottom: 4.8rem;
+  margin-bottom: 2.4rem;
 }
 
 /* .contact-form {
@@ -110,7 +112,7 @@
   /* margin-top: 2.4rem; */
 
   margin-top: 3.2rem;
-  margin-bottom: 19.2rem;
+  margin-bottom: 9.6rem;
 
   transition: all 0.2s;
 }
