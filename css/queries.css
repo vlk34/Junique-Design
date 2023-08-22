@@ -1,3 +1,39 @@
+@media (max-width: 72em) {
+  body .z-1 {
+    grid-template-columns: 1fr;
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+
+  body .z-1 img {
+    height: 75%;
+  }
+
+  body .about-container {
+    max-width: 80rem;
+  }
+
+  body .about-text {
+    font-size: 1.6rem;
+  }
+
+  body .about-secondary-1 {
+    padding-top: 2.4rem;
+    font-size: 3rem;
+  }
+
+  .a01 {
+    padding-top: 2.4rem;
+  }
+
+  body .about-secondary-2 {
+    font-size: 3rem;
+  }
+  body .header-box span {
+    font-size: 3rem;
+  }
+}
+
 @media (max-width: 65em) {
   .projects {
     grid-template-columns: repeat(2, 1fr);
@@ -161,6 +197,27 @@
     width: 52rem;
     height: 23rem;
   }
+
+  .contact-us h1 {
+    font-size: 8.2rem;
+  }
+
+  body .contact-text {
+    font-size: 3rem;
+  }
+
+  body .contact {
+    font-size: 1.6rem;
+    padding: 1.2rem;
+  }
+
+  body .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  body .contact-icon {
+    font-size: 2.8rem;
+  }
 }
 
 @media (max-width: 31.25em) {
@@ -208,6 +265,14 @@
     width: 42rem;
     height: 22rem;
   }
+
+  .contact-us h1 {
+    font-size: 7rem;
+  }
+
+  body .contact-text {
+    font-size: 2.4rem;
+  }
 }
 
 @media (max-width: 25em) {
@@ -229,6 +294,10 @@
     width: 35rem;
     height: 18rem;
   }
+
+  body .contact-end-text {
+    font-size: 2.4rem;
+  }
 }
 
 @media (max-width: 24em) {
@@ -246,6 +315,14 @@
   }
   .footer-text {
     font-size: 1.2rem;
+  }
+
+  .contact-us h1 {
+    font-size: 6.4rem;
+  }
+
+  body .contact-text {
+    font-size: 2.4rem;
   }
 }
 
@@ -295,6 +372,14 @@
   .big-tag {
     bottom: 50%;
   }
+
+  .contact-us h1 {
+    font-size: 6rem;
+  }
+
+  body .contact-text {
+    font-size: 2.2rem;
+  }
 }
 
 @media (max-width: 18em) {
@@ -341,5 +426,13 @@
   }
   .big-tag {
     bottom: 53%;
+  }
+
+  .contact-us h1 {
+    font-size: 5.2rem;
+  }
+
+  body .contact-text {
+    font-size: 2rem;
   }
 }
