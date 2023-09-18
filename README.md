@@ -34,4 +34,4 @@ This project aims to redesign the Junique Design website, providing a profession
 
 Feel free to follow the progress of this project or give feedback on it by opening issues, forking etc.
 
-[GitHub Repository](https://github.com/vlk34/junique-design-redesign)
+[GitHub Repository](https://github.com/vlk34/Junique)
