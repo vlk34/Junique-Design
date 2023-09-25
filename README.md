@@ -6,6 +6,7 @@ This project is a redesign of the Junique Design website for practice. The origi
 ## Project Details
 - **Instagram**: [@juniquedesign](https://www.instagram.com/juniquedesign/)
 - **Original Website**: [Junique Design](https://www.junique.com.tr)
+- **My Website**: [My Version](https://vlk34.github.io/Junique-Design/)
 
 ## Project Goals
 - Create a functioning website.
